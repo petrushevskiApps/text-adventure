@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c2b50e86144a1fb7e71f1b8f319321, type: 3}
+  m_Name: WoodenDoor_Mushroom-Corridor
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Wooden Door
+  <Description>k__BackingField: on the right, old and warped, with a crude iron handle.
+    From behind it, you hear the faint drip of water.
+  _items: []
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 64c38365b4b2bbd4eb5c6779545e5af1, type: 2}
+    Message: The door stands ajar, exposing a corridor bathed in weak, flickering
+      light.
+    NegativeMessage: The door stands ajar, exposing a corridor bathed in weak, flickering
+      light.
+  - Action: {fileID: 11400000, guid: cf00954a2b8039d47890ea1a230b56f3, type: 2}
+    Message: Door is already unlocked, you can freely go through it!
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: faf28f537c3c5b44db53e4ae43b02168, type: 2}
+    Message: The player steps through the door.
+    NegativeMessage: n/a
+  _room: {fileID: 11400000, guid: 301254cec0ec6014398057f370fe0d5e, type: 2}
+  _isUnlocked: 1

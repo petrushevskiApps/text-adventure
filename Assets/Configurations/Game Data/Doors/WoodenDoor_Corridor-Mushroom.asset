@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c2b50e86144a1fb7e71f1b8f319321, type: 3}
+  m_Name: WoodenDoor_Corridor-Mushroom
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Wooden Door
+  <Description>k__BackingField: on the right, old and warped, with a crude iron handle.
+    From behind it, you hear the faint drip of water.
+  _items:
+  - {fileID: 11400000, guid: 4807f815fc6aa1e49a3248bfc0169fbb, type: 2}
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 64c38365b4b2bbd4eb5c6779545e5af1, type: 2}
+    Message: You notice that there is no key hole, so the door must not lock.
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: cf00954a2b8039d47890ea1a230b56f3, type: 2}
+    Message: You turn the door handle and the door creaks open, revealing a damp
+      chamber lit by the glow of mushrooms.
+    NegativeMessage: "You grip the handle and twist, but the door refuses to move
+      \u2014 its frame swollen and locked tight after years of damp decay."
+  - Action: {fileID: 11400000, guid: faf28f537c3c5b44db53e4ae43b02168, type: 2}
+    Message: The player steps through the door slowly.
+    NegativeMessage: No matter how you push, the door will not yield.
+  _room: {fileID: 11400000, guid: 1d1e659adb20f724a91ce4191d8bb8c3, type: 2}
+  _isUnlocked: 0
