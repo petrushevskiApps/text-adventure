@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c2b50e86144a1fb7e71f1b8f319321, type: 3}
+  m_Name: DungeonDoor
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Dungeon Door
+  <Description>k__BackingField: to the north
+  _items:
+  - {fileID: 11400000, guid: 18bbc42094fa5a24cb5025a92b932efe, type: 2}
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 64c38365b4b2bbd4eb5c6779545e5af1, type: 2}
+    Message: Door inspection shows that you need {0} to unlock the door.
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: cf00954a2b8039d47890ea1a230b56f3, type: 2}
+    Message: You insert the key into the lock and turn it. The lock clicks open,
+      and the door creaks as it slowly swings ajar. You can <color="blue">enter</color>
+      now.
+    NegativeMessage: Door can not be unlocked. You are missing some items.
+  - Action: {fileID: 11400000, guid: faf28f537c3c5b44db53e4ae43b02168, type: 2}
+    Message: The player steps through the door with hesitation...
+    NegativeMessage: Locked!
+  _room: {fileID: 11400000, guid: 301254cec0ec6014398057f370fe0d5e, type: 2}
+  _isUnlocked: 0

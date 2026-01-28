@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2089fb0be8a444db1051c030858885, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Crowbar
+  <Description>k__BackingField: leaning against the damp stone wall, half-hidden
+    in shadow.
+  _items: []
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 4debebcd29e35a74291d945a4b92c1d9, type: 2}
+    Message: n/a
+    NegativeMessage: A rusty {0}, sturdy enough to pry open locks or lever heavy
+      objects.
+  - Action: {fileID: 11400000, guid: 03b6d597bb67f7442a3d3834843faf64, type: 2}
+    Message: "You pick up the {0}. It\u2019s heavy in your hands, but it feels solid
+      and reliable."
+    NegativeMessage: You already picked up the {0}.
+  - Action: {fileID: 11400000, guid: 41a4fbe9e3c1f7249bfba74af6ce6214, type: 2}
+    Message: What do you expect to read on a crowbar, a novel ?
+    NegativeMessage: n/a

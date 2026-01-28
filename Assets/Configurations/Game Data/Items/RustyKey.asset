@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2089fb0be8a444db1051c030858885, type: 3}
+  m_Name: RustyKey
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Rusty Key
+  <Description>k__BackingField: hanging on the wall
+  _items:
+  - {fileID: 11400000, guid: f03304cc88797d349b4754a7ab2892cf, type: 2}
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 4debebcd29e35a74291d945a4b92c1d9, type: 2}
+    Message: After closer inspection you see {0}
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: 03b6d597bb67f7442a3d3834843faf64, type: 2}
+    Message: You take the key. It feels cold and heavy in your hand.
+    NegativeMessage: You already took {0}, and it is in your inventory!

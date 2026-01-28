@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0dc231a4ecd4ac191ada990118ef633, type: 3}
+  m_Name: MushroomRoom
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Pedestal Room
+  <Description>k__BackingField: 
+  _items:
+  - {fileID: 11400000, guid: 552d88aabd011a54cabe87564d02176e, type: 2}
+  _itemActions:
+  - Action: {fileID: 11400000, guid: e1ce1a44a6c8ac941b8b1199ae879699, type: 2}
+    Message: You step into a damp chamber where glowing mushrooms cover the walls.
+      Water drips steadily from the ceiling, forming small puddles on the stone floor.<b>Look</b>
+      for a tools to help you escape.
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: 4debebcd29e35a74291d945a4b92c1d9, type: 2}
+    Message: You look around and you see {0}
+    NegativeMessage: n/a
+  _doors:
+  - {fileID: 11400000, guid: 15bb598847f8948428cc7987112a58a1, type: 2}

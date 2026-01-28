@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c2b50e86144a1fb7e71f1b8f319321, type: 3}
+  m_Name: IronDoor_Corridor
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Iron Door
+  <Description>k__BackingField: on the left, its surface scarred and cold to the
+    touch. Strange runes are faintly etched across it.
+  _items:
+  - {fileID: 11400000, guid: c027fe36d4b787c42b52a5a089283fc9, type: 2}
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 64c38365b4b2bbd4eb5c6779545e5af1, type: 2}
+    Message: "Inspecting the iron door closely, you find no keyhole, latch, or any
+      obvious way to open it. The runes etched into its surface pulse faintly, as
+      if waiting for something\u2026 or someone."
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: cf00954a2b8039d47890ea1a230b56f3, type: 2}
+    Message: The medallion flashes brightly, and the runes dissolve into mist. With
+      a deep groan, the iron door unlocks and swings open, revealing a grand staircase
+      spiraling upward.
+    NegativeMessage: "You press your hands against the iron door and try to force
+      it open, but nothing happens. The runes flare briefly, sending a cold shiver
+      down your spine. No key, no strength, no tool will move it \u2014 the door
+      remains immovable, as if mocking your attempt."
+  - Action: {fileID: 11400000, guid: faf28f537c3c5b44db53e4ae43b02168, type: 2}
+    Message: "You have solved the puzzle of the iron door. Beyond it lies the true
+      way out of the dungeon\u2026 or deeper mysteries that await above."
+    NegativeMessage: You push and twist at the iron door, but the runes flare violently.
+      A shock of magical energy bursts from the surface, throwing you across the
+      corridor. You hit the stone floor hard, dazed, and the door remains firmly
+      shut.
+  _room: {fileID: 11400000, guid: 136ed594244729748a77dba98685df94, type: 2}
+  _isUnlocked: 0

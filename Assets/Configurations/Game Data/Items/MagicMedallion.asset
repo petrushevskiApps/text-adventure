@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2089fb0be8a444db1051c030858885, type: 3}
+  m_Name: MagicMedallion
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Medallion
+  <Description>k__BackingField: small and circular, crafted from polished silver.
+    Strange runes are etched along its edge, glowing faintly with an otherworldly
+    light
+  _items: []
+  _itemActions:
+  - Action: {fileID: 11400000, guid: 4debebcd29e35a74291d945a4b92c1d9, type: 2}
+    Message: n/a
+    NegativeMessage: As you study the {0}, its runes flare faintly toward the iron
+      door. It seems to hum with a power that could unlock the way forward.
+  - Action: {fileID: 11400000, guid: 41a4fbe9e3c1f7249bfba74af6ce6214, type: 2}
+    Message: Bearer of this shall command the sealed path. The iron door obeys the
+      chosen.
+    NegativeMessage: n/a
+  - Action: {fileID: 11400000, guid: 03b6d597bb67f7442a3d3834843faf64, type: 2}
+    Message: "You lift the {0} from the pedestal. A warmth spreads through your fingers,
+      and the runes along its edge glow brighter. For a moment, the whispers fade,
+      replaced by a single, clear voice: \u2018The path is bound to the chosen. Only
+      with this shall the iron yield."
+    NegativeMessage: You already took the {0}.
